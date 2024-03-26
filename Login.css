@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:rgba(0, 0, 0, 0.808);
+}
+.Content_Login{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.223);
+    color: white;
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+.Content_Login h1{
+    font-size: 30px;
+    text-align: center;
+}
+.Content_Login .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin:30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    /* border: 2px solid rgb(224, 224, 224); */
+    border-bottom: 1px solid  rgb(224, 224, 224);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: #fff;
+}
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+.Content_Login .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -15px 0 15px;
+}
+.remember-forgot a{
+    text-decoration: none;
+    color: #fff;
+}
+.Content_Login .btn{
+    width: 160px;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600; 
+    margin: 5px;
+}
+.Content_Login .Or{
+    width: 100%;
+    height: 35px;
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.Or .box-or1{
+    width: 80%;
+    height: 19px;
+    border-bottom: 2px solid #fff;
+    /* background-color: black; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.Or .box-or1 .box-or2 p{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(39, 39, 39);
+    border-radius: 50px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Content_Login .Socail{
+    width: 50px;
+    height: 40px;
+    background-color: #fff;
+    margin: 10px;
+    display: block;
+    
+}
+.Content_Login .Text p{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
